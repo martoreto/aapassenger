@@ -47,6 +47,15 @@ A nice wizard will appear, guiding you through the next steps.
 1. To enable audio streaming, another application called [Audio Capture Service](https://github.com/martoreto/audiocapture)
 must me installed on the passenger's device. This requires root (or a custom recovery).
  
+## Is it free?
+
+Pre-release versions will be free. What about releases? I haven't decided yet.
+
+I'm also open-sourcing useful reusable components of the app. For now we have:
+ - the media audio redirection service (https://github.com/martoreto/audiocapture)
+ - nicely packaged Opus audio codec (https://github.com/martoreto/opuscodec)
+ - the unofficial Android Auto SDK build scripts (https://github.com/martoreto/aauto-sdk)
+
 ## Screenshots
 
 ![Screenshot 1](media/nav1.png)
