@@ -21,7 +21,7 @@ Please test and report the results.
 
 Note that this is now alpha quality, so expect some glitches and report them here:
 
-TODO
+https://forum.xda-developers.com/android-auto/android-auto-general/app-aa-passenger-remotely-control-t3713198
 
 Minimum supported Android version is 6.0 (Marshmallow).
 
