@@ -11,6 +11,9 @@ Features:
  
 ## Requirements
  
+Two devices are needed: one would be connected to the car ("driver's device") and have Android Auto app installed.
+The other ("passenger's device") will be able to control it.
+
 The connection is established using Wi-fi Direct (P2P).
 Therefore both devices must not only support it, but do it robustly.
 Unfortunately this is not always the case and your mileage may vary.
@@ -22,10 +25,9 @@ TODO
 
 Minimum supported Android version is 6.0 (Marshmallow).
 
-## Installation
+Not supported for non-projected (on the phone screen) Android Auto, although audio streaming seems to work.
 
-For installation, two devices are needed: one would be connected to the car ("driver's device") and has Android Auto installed.
-The other ("passenger's device") is able to control it.
+## Installation
 
 For initial setup no car is required. :)
 
