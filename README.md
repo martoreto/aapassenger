@@ -20,6 +20,8 @@ Features:
  
  TODO
  
+ Minimum supported Android version is 6.0 (Marshmallow).
+ 
  ## Installation
  
  For installation, two devices are needed: one would be connected to the car ("driver's device") and has Android Auto installed.
