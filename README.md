@@ -9,39 +9,46 @@ Features:
  
  - streaming audio via car speakers (requires root)
  
- ## Requirements
+## Requirements
  
- The connection is established using Wi-fi Direct (P2P).
- Therefore both devices must not only support it, but do it robustly.
- Unfortunately this is not always the case and your mileage may vary.
- Please test and report the results.
+The connection is established using Wi-fi Direct (P2P).
+Therefore both devices must not only support it, but do it robustly.
+Unfortunately this is not always the case and your mileage may vary.
+Please test and report the results.
+
+Note that this is now alpha quality, so expect some glitches and report them here:
+
+TODO
+
+Minimum supported Android version is 6.0 (Marshmallow).
+
+## Installation
+
+For installation, two devices are needed: one would be connected to the car ("driver's device") and has Android Auto installed.
+The other ("passenger's device") is able to control it.
+
+For initial setup no car is required. :)
+
+### Driver's device
  
- Note that this is now alpha quality, so expect some glitches and report them here:
+1. [Download](https://github.com/martoreto/aapassenger/releases) AA Remote APK and install it on the driver's device.
  
- TODO
+1. Open Android Auto app and enable "Unknown sources", per
+[official documentation](https://developer.android.com/training/auto/testing/index.html#phone)
+or [this video](https://youtu.be/MjHpOaeOmOo).
  
- Minimum supported Android version is 6.0 (Marshmallow).
+### Passenger's device
  
- ## Installation
+1. [Download](https://github.com/martoreto/aapassenger/releases) AA Passenger APK, install it on the passenger's device and run.
+A nice wizard will appear, guiding you through the next steps.
  
- For installation, two devices are needed: one would be connected to the car ("driver's device") and has Android Auto installed.
- The other ("passenger's device") is able to control it.
+1. To enable audio streaming, another application called [Audio Capture Service](https://github.com/martoreto/audiocapture)
+must me installed on the passenger's device. This requires root (or a custom recovery).
  
- For initial setup no car is required. :)
- 
- ### Driver's device
- 
- 1. [Download](https://github.com/martoreto/aapassenger/releases) AA Remote APK and install it on the driver's device.
- 
- 1. Open Android Auto app and enable "Unknown sources", per
- [official documentation](https://developer.android.com/training/auto/testing/index.html#phone)
- or [this video](https://youtu.be/MjHpOaeOmOo).
- 
- ### Passenger's device
- 
- 1. [Download](https://github.com/martoreto/aapassenger/releases) AA Passenger APK, install it on the passenger's device and run.
- A nice wizard will appear, guiding you through the next steps.
- 
- 1. To enable audio streaming, another application called [Audio Capture Service](https://github.com/martoreto/audiocapture)
- must me installed on the passenger's device. This requires root (or a custom recovery).
- 
+## Screenshots
+
+![Screenshot 1](media/nav1.png)
+
+![Screenshot 2](media/audio2.png)
+
+![Screenshot 3](media/sshot3.png)
