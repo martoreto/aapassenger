@@ -7,7 +7,7 @@ Features:
  
  - pushing pictures and screenshots for display
  
- - streaming audio via car speakers (requires root)
+ - streaming audio via car speakers (requires root on passenger's phone)
  
 ## Requirements
  
