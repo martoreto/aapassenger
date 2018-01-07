@@ -67,8 +67,7 @@ For initial setup and connection test no car is required. :)
     - Tap dots on the top right of the screen.
     - Select "Developer settings" from the menu and enable "Unknown sources".
     
-    If in doubt, see [official documentation](https://developer.android.com/training/auto/testing/index.html#phone)
-    or [this video](https://youtu.be/MjHpOaeOmOo).
+    If in doubt, see [this video](https://youtu.be/MjHpOaeOmOo).
  
 ### Passenger's device
  
