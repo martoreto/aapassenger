@@ -45,7 +45,7 @@ Please test and report the results.
 Note that this is now alpha quality, so expect some glitches and report them
 in the XDA thread linked above.
 
-Minimum supported Android version is ~~6.0~~5.0 (Kitkat).
+Minimum supported Android version is ~~6.0~~5.0 (Lollipop).
 
 Not officially supported for non-projected (on the phone screen) Android Auto,
 although audio streaming seems to work.
