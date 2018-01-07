@@ -7,33 +7,34 @@ Features:
  
  - pushing pictures and screenshots for display
  
- - streaming audio via car speakers (requires root on passenger's phone)
+ - streaming audio via car speakers ~~(requires root on passenger's phone)~~
  
 ## Requirements
  
 Two devices are needed: one would be connected to the car ("driver's device") and have Android Auto app installed.
 The other ("passenger's device") will be able to control it.
 
-The connection is established using Wi-fi Direct (P2P).
-Therefore both devices must not only support it, but do it robustly.
-Unfortunately this is not always the case and your mileage may vary.
+The connection is established using either Wi-fi Direct (P2P) or Android Hotspot
+(in this case Hotspot must be manually activated before starting Android Auto).
+
+Note that Wi-fi Direct is not always robust and your mileage may vary.
 Please test and report the results.
 
 Note that this is now alpha quality, so expect some glitches and report them here:
 
 https://forum.xda-developers.com/android-auto/android-auto-general/app-aa-passenger-remotely-control-t3713198
 
-Minimum supported Android version is 6.0 (Marshmallow).
+Minimum supported Android version is 5.0 (Kitkat).
 
 Not supported for non-projected (on the phone screen) Android Auto, although audio streaming seems to work.
 
 ## Installation
 
-For initial setup no car is required. :)
+For initial setup and connection test no car is required. :)
 
 ### Driver's device
  
-1. [Download](https://github.com/martoreto/aapassenger/releases) AA Remote APK and install it on the driver's device.
+1. [Download](https://github.com/martoreto/aapassenger/releases) AA 2nd Seat APK and install it on the driver's device.
  
 1. Open Android Auto app and enable "Unknown sources", per
 [official documentation](https://developer.android.com/training/auto/testing/index.html#phone)
@@ -41,15 +42,18 @@ or [this video](https://youtu.be/MjHpOaeOmOo).
  
 ### Passenger's device
  
-1. [Download](https://github.com/martoreto/aapassenger/releases) AA Passenger APK, install it on the passenger's device and run.
+1. Download [from here](https://github.com/martoreto/aapassenger/releases)
+or [from Play Store](https://play.google.com/apps/testing/com.github.martoreto.aapassenger)
+the AA Passenger APK, install it on the passenger's device and run.
 A nice wizard will appear, guiding you through the next steps.
- 
-1. To enable audio streaming, another application called [Audio Capture Service](https://github.com/martoreto/audiocapture)
-must me installed on the passenger's device. This requires root (or a custom recovery).
+
+1. Enjoy.
  
 ## Is it free?
 
-Pre-release versions will be free. What about releases? I haven't decided yet.
+AA Passenger App is ad-supported.
+
+Pre-release AA 2nd Seat App versions will be free. What about releases? I haven't decided yet.
 
 I'm also open-sourcing useful reusable components of the app. For now we have:
  - the media audio redirection service (https://github.com/martoreto/audiocapture)
