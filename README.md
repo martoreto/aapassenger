@@ -119,7 +119,7 @@ Just [write the URL below to an NFC tag](https://www.tagstand.com/blog/nfc-how-g
 
   https://storage.googleapis.com/aapassenger-static/nfc.html
 
-If the AA Passenger app is already installed, tapping this TAG will open it.
+If the AA Passenger app is already installed, tapping this tag will open it.
 Otherwise the website above will be opened.
 
 ## Is it free?
