@@ -79,6 +79,13 @@ For initial setup and connection test no car is required. :)
 
 1. Enjoy.
 
+## Non-standard audio streaming
+
+Normally, to stream audio with the AA Passenger app, nothing special is needed.
+When connected, the app displays an "Audio Streaming" button.
+
+Below are described some ways to stream audio in a non-standard way.
+
 #### Audio streaming without AA Passenger app (experimental)
 
 1. Start Hotspot on the driver's device, then connect to the car and start Android Auto.
