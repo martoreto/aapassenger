@@ -16,6 +16,11 @@ https://forum.xda-developers.com/android-auto/android-auto-general/app-aa-passen
 
 ## What's new
 
+- **1.9-alpha9**
+
+    - AA Passenger: fixed Oreo crash
+    - AA Passenger: fixed casting volume
+    
 - **1.9-alpha8**
 
     - audio streaming, without root! (experimental)
